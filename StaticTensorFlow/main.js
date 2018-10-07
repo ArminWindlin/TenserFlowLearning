@@ -78,7 +78,7 @@ function test2() {
 // Train the model using the data.
     const configF = {
         shuffle: true,
-        epochs: 10
+        epochs: 500
     };
 
     hey().then(() => {
@@ -86,7 +86,7 @@ function test2() {
     });
 
     async function hey() {
-        for (let i = 0; i < 20; i++) {
+        for (let i = 0; i < 1; i++) {
             const response = await model.fit(xs, ys, configF);
             console.log(response.history.loss[0]);
             model.predict(tf.tensor2d([33], [1, 1])).print();

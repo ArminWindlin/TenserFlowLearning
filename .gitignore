@@ -45,6 +45,5 @@ node_modules/*
 NodeTensorFlow/node_modules/*
 StaticTensorFlow/node_modules/*
 
-.cfignore
-dist/*
+NodeTensorFlow/node_modules/dist/*
 
