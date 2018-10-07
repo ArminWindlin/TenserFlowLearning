@@ -9,7 +9,8 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 const tf = require("@tensorflow/tfjs");
-require("@tensorflow/tfjs-node-gpu");
+require("@tensorflow/tfjs-node");
+//npm install --global --production windows-build-tools
 exports.flow = (req, res, next) => {
     const model = tf.sequential();
     //model.add(hidden); // add the layer

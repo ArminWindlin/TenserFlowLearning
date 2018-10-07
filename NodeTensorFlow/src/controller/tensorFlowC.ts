@@ -1,6 +1,8 @@
 import * as tf from '@tensorflow/tfjs';
 
-import '@tensorflow/tfjs-node-gpu';
+import '@tensorflow/tfjs-node';
+
+//npm install --global --production windows-build-tools
 
 export const flow = (req, res, next) => {
     const model = tf.sequential();

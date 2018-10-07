@@ -10,7 +10,7 @@
     "prod": "npm run build && npm start"
   },
   "dependencies": {
-    "@tensorflow/tfjs-node-gpu": "^0.1.18",
+    "@tensorflow/tfjs-node": "^0.1.18",
     "@types/express": "^4.11.1",
     "@types/mongodb": "^3.0.9",
     "@types/mongoose": "^5.0.7",
