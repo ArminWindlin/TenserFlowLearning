@@ -5,6 +5,10 @@
 # IntelliJ project files
 .idea
 *.iml
+NodeTensorFlow/.idea
+StaticTensorFlow/.idea
+NodeTensorFlow/*.iml
+StaticTensorFlow/*.iml
 out
 gen### Java template
 # Compiled class file
@@ -38,6 +42,8 @@ hs_err_pid*
 
 #exclude node modules
 node_modules/*
+NodeTensorFlow/node_modules/*
+StaticTensorFlow/node_modules/*
 
 .cfignore
 dist/*
